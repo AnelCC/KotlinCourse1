@@ -7,17 +7,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.databinding.DataBindingUtil
+import com.example.android.navigation.databinding.FragmentTitleBinding
 
-/**
- * A simple [Fragment] subclass.
- */
 class TitleFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        return TextView(activity).apply {
-            setText(R.string.hello_blank_fragment)
-        }
+        var binding: FragmentTitleBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_title, container, false)
+
+        return  binding.root;
     }
 
 
