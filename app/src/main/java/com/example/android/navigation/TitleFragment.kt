@@ -19,10 +19,13 @@ class TitleFragment : Fragment() {
         var binding: FragmentTitleBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_title, container, false)
 
         //Navigating when the Play Button is Hit, create on click listener
-        binding.playButton.setOnClickListener { view: View ->
+       /* binding.playButton.setOnClickListener { view: View ->
             Navigation.findNavController(view).navigate(R.id.action_titleFragment_to_gameFragment)
-        }
+        }*/
 
+        binding.playButton.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_titleFragment_to_gameFragment)
+        }
 
         return  binding.root;
     }
