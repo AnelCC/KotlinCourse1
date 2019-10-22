@@ -23,9 +23,13 @@ class TitleFragment : Fragment() {
             Navigation.findNavController(view).navigate(R.id.action_titleFragment_to_gameFragment)
         }*/
 
-        binding.playButton.setOnClickListener { view: View ->
+        /*binding.playButton.setOnClickListener { view: View ->
             view.findNavController().navigate(R.id.action_titleFragment_to_gameFragment)
-        }
+        }*/
+
+        //The complete onClickListener with Navigation using createNavigateOnClickListener
+        binding.playButton.setOnClickListener(
+                Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_gameFragment))
 
         return  binding.root;
     }
