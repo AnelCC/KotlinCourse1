@@ -51,4 +51,8 @@
             app:destination="@id/gameFragment"
             app:popUpTo="@+id/titleFragment" />
     </fragment>
+    <!--
+    PopTo Not-Inclusive:  Pops off everything on the back stack until it finds he referenced fragments transaction
+    PopTo Inclusive:  Pops off everything on the back stack until, including the referenced fragment transaction
+    -->
 </navigation>
