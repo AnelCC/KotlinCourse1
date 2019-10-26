@@ -32,4 +32,10 @@ class MainActivity : AppCompatActivity() {
         var navController = this.findNavController(R.id.myNavHostFragment)
         NavigationUI.setupActionBarWithNavController(this, navController)
     }
+
+    override fun onSupportNavigateUp(): Boolean {
+       // return super.onSupportNavigateUp()
+        var navController = this.findNavController(R.id.myNavHostFragment)
+        return navController.navigateUp()
+    }
 }
