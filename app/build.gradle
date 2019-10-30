@@ -53,6 +53,8 @@ dependencies {
     // Constraint Layout
     implementation "androidx.constraintlayout:constraintlayout:$version_constraint_layout"
 
+    implementation "android.arch.navigation:navigation-safe-args-gradle-plugin:$version_navigation"
+
     // Core
     implementation "androidx.core:core:$version_core"
 
@@ -61,4 +63,6 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.1.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.1.0'
+
+
 }
