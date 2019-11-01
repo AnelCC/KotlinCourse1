@@ -1,6 +1,6 @@
 # Navigation
 
-This is the toy app for lesson 3 of the [Android App Development in Kotlin course on Udacity](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012).
+This is the toy app for lesson 3 of the [Android App Development in Kotlin course on Udacity]
 
 ## Android Trivia 
 
@@ -10,14 +10,16 @@ Since students haven't yet learned about saving data or the Android lifecycle, i
 
 ## Screenshots
 
-![Screenshot1](screenshots/screen_1.png) ![Screenshot2](screenshots/screen_2.png)
+<img src="https://github.com/AnelCC/KotlinCourse1/blob/master/screenshots/screen_1.png" width="300" height="500" title=TriviaExample">
+
+<img src="https://github.com/AnelCC/KotlinCourse1/blob/master/screenshots/screen_2.png" width="300" height="500" title=TriviaExamples">
 
 ## How to use this repo while taking the course
 
 
 Each code repository in this class has a chain of commits that looks like this:
 
-![listofcommits](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58befe2e_listofcommits/listofcommits.png)
+<img src="https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58befe2e_listofcommits/listofcommits.png" width="300" height="500" title=TriviaExamples">
 
 These commits show every step you'll take to create the app. Each commit contains instructions for completing the that step.
 
@@ -71,7 +73,7 @@ git checkout BRANCH_NAME
 
 **Step 3: Find and complete the TODOs**
 
-Once you've checked out the branch, you'll have the code in the exact state you need. You'll even have TODOs, which are special comments that tell you all the steps you need to complete the exercise. You can easily navigate to all the TODOs using Android Studio's TODO tool. To open the TODO tool, click the button at the bottom of the screen that says TODO. This will display a list of all comments with TODO in the project. 
+Once you've checked out the branch, you'll have the code in the exact state you need. You'll even have TODOs, which are special comments that tell you all the steps you need to complete the exercise. You can easily navigate to all the TODOs using Android Studio's TODO tool. To open the TODO tool, click the button at the bottom of the screen that says TODO. This will display a list of all comments with TODO in the project.
 
 We've numbered the TODO steps so you can do them in order:
 ![todos](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58bf00e7_todos/todos.png
