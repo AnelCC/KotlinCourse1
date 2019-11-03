@@ -114,3 +114,18 @@ You can also compare your code locally with the branch of the following step.
   implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0-rc02"
   implementation "android.arch.navigation:navigation-ui-ktx:1.0.0-rc02"
 ```
+
+**Navigation file settings**
+```
+    <navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        app:startDestination="@id/title_destination"/>
+        .
+        .
+        .
+
+    <fragment
+        android:name="com.example.package.NameFragment"/>
+        .
+        .
+        .
+```
